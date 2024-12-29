@@ -16,9 +16,18 @@ class FelPceMini
     {
         bool found = false;
 
+        Console.WriteLine("PCE/TG16/Coregrafx Mini FEL mode activation tool - Welcome ! :-) ");
+        Console.WriteLine("Plug the console if it is not already done, and turn it on.");
+        Console.WriteLine("Press Ctrl+C to exit.");
+
+        // ASCII animation to show that time is passing
+        string[] animation = new string[] { "|", "/", "-", "\\" };
+        int animationIndex = 0;
+
         // loop until we find the device
         while (!found)
         {
+            Console.Write($"\rSearching for device... {animation[animationIndex++ % animation.Length]}");
             // Get the list of all connected devices
             UsbRegDeviceList allDevices = UsbDevice.AllDevices;
 
@@ -27,7 +36,7 @@ class FelPceMini
             {
                 if (usbDevice.Vid == vid && usbDevice.Pid == pid)
                 {
-                    Console.WriteLine("Found the PCE/TG16/Coregrafx Mini!");
+                    Console.WriteLine("\nFound the PCE/TG16/Coregrafx Mini!");
                     usbDevice.Open(out device);
                     found = true;
                     break;
@@ -35,7 +44,7 @@ class FelPceMini
             }
             if (!found)
             {
-                Console.WriteLine("PCE/TG16/Coregrafx Mini not found. Please connect the device and turn it on. Ctrl+C to exit.");
+                //Console.WriteLine("PCE/TG16/Coregrafx Mini not found. Please connect the device and turn it on. Ctrl+C to exit.");
                 System.Threading.Thread.Sleep(250);
             }
         }
@@ -46,8 +55,7 @@ class FelPceMini
 
         // send the FEL magic
         Console.WriteLine("Sending magic bytes to trigger FEL mode :");
-        //byte[] felMagic = [0x55, 0x53, 0x42, 0x43, 0x4A, 0x53, 0x48, 0x4B, 0x20, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xF8, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00];
-        byte[] felMagic = [0x55, 0x50, 0x42, 0x43, 0x4A, 0x53, 0x48, 0x4B, 0x20, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xF8, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00];
+        byte[] felMagic = [0x55, 0x53, 0x42, 0x43, 0x4A, 0x53, 0x48, 0x4B, 0x20, 0x00, 0x00, 0x00, 0x00, 0x00, 0x02, 0xF8, 0x02, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00];
         epWriter.Write(felMagic, 1000, out int bytesWritten);
 
 

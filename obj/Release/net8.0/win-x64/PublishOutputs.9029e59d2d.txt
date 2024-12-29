@@ -1,0 +1,6 @@
+E:\pce\dev\fel4pce\bin\Release\net8.0\win-x64\publish\fel4pce.exe
+E:\pce\dev\fel4pce\bin\Release\net8.0\win-x64\publish\fel4pce.dll
+E:\pce\dev\fel4pce\bin\Release\net8.0\win-x64\publish\fel4pce.deps.json
+E:\pce\dev\fel4pce\bin\Release\net8.0\win-x64\publish\fel4pce.runtimeconfig.json
+E:\pce\dev\fel4pce\bin\Release\net8.0\win-x64\publish\fel4pce.pdb
+E:\pce\dev\fel4pce\bin\Release\net8.0\win-x64\publish\LibUsbDotNet.LibUsbDotNet.dll

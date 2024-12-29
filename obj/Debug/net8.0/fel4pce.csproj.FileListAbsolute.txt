@@ -1,0 +1,17 @@
+E:\pce\dev\fel4pce\obj\Debug\net8.0\fel4pce.csproj.AssemblyReference.cache
+E:\pce\dev\fel4pce\obj\Debug\net8.0\fel4pce.GeneratedMSBuildEditorConfig.editorconfig
+E:\pce\dev\fel4pce\obj\Debug\net8.0\fel4pce.AssemblyInfoInputs.cache
+E:\pce\dev\fel4pce\obj\Debug\net8.0\fel4pce.AssemblyInfo.cs
+E:\pce\dev\fel4pce\obj\Debug\net8.0\fel4pce.csproj.CoreCompileInputs.cache
+E:\pce\dev\fel4pce\bin\Debug\net8.0\fel4pce.exe
+E:\pce\dev\fel4pce\bin\Debug\net8.0\fel4pce.deps.json
+E:\pce\dev\fel4pce\bin\Debug\net8.0\fel4pce.runtimeconfig.json
+E:\pce\dev\fel4pce\bin\Debug\net8.0\fel4pce.dll
+E:\pce\dev\fel4pce\bin\Debug\net8.0\fel4pce.pdb
+E:\pce\dev\fel4pce\bin\Debug\net8.0\LibUsbDotNet.LibUsbDotNet.dll
+E:\pce\dev\fel4pce\obj\Debug\net8.0\fel4pce.csproj.Up2Date
+E:\pce\dev\fel4pce\obj\Debug\net8.0\fel4pce.dll
+E:\pce\dev\fel4pce\obj\Debug\net8.0\refint\fel4pce.dll
+E:\pce\dev\fel4pce\obj\Debug\net8.0\fel4pce.pdb
+E:\pce\dev\fel4pce\obj\Debug\net8.0\fel4pce.genruntimeconfig.cache
+E:\pce\dev\fel4pce\obj\Debug\net8.0\ref\fel4pce.dll

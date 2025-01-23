@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "1okRD5W7QcY=",
+  "dgSpecHash": "h5ujMn63H6c=",
   "success": true,
-  "projectFilePath": "E:\\pce\\dev\\fel4pce\\fel4pce.csproj",
+  "projectFilePath": "E:\\pce\\dev-git\\pce-mini-FEL\\fel4pce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bix\\.nuget\\packages\\libusbdotnet\\2.2.29\\libusbdotnet.2.2.29.nupkg.sha512",
+    "C:\\Users\\Bix\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.12\\microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
     "C:\\Users\\Bix\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Bix\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Bix\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",

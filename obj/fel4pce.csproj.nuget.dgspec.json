@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "E:\\pce\\dev\\fel4pce\\fel4pce.csproj": {}
+    "E:\\pce\\dev-git\\pce-mini-FEL\\fel4pce.csproj": {}
   },
   "projects": {
-    "E:\\pce\\dev\\fel4pce\\fel4pce.csproj": {
+    "E:\\pce\\dev-git\\pce-mini-FEL\\fel4pce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\pce\\dev\\fel4pce\\fel4pce.csproj",
+        "projectUniqueName": "E:\\pce\\dev-git\\pce-mini-FEL\\fel4pce.csproj",
         "projectName": "fel4pce",
-        "projectPath": "E:\\pce\\dev\\fel4pce\\fel4pce.csproj",
+        "projectPath": "E:\\pce\\dev-git\\pce-mini-FEL\\fel4pce.csproj",
         "packagesPath": "C:\\Users\\Bix\\.nuget\\packages\\",
-        "outputPath": "E:\\pce\\dev\\fel4pce\\obj\\",
+        "outputPath": "E:\\pce\\dev-git\\pce-mini-FEL\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
           "C:\\Users\\Bix\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -48,6 +53,12 @@
             "LibUsbDotNet": {
               "target": "Package",
               "version": "[2.2.29, )"
+            },
+            "Microsoft.NET.ILLink.Tasks": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.12, )",
+              "autoReferenced": true
             }
           },
           "imports": [
@@ -66,7 +77,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -1,0 +1,2 @@
+E:\pce\dev-git\pce-mini-FEL\bin\Release\net8.0\win-x64\publish\fel4pce.pdb
+E:\pce\dev-git\pce-mini-FEL\bin\Release\net8.0\win-x64\publish\fel4pce.exe

@@ -14,4 +14,6 @@ Instructions :
 - wait for the program to finish & exit
 - done ! Congratulations, your console is in FEL mode and you can use sunxi-fel.exe
 
- 
+For Linux :  
+install Microsoft dotnet v8 form your distro's repository or from https://learn.microsoft.com/en-us/dotnet/core/install/linux-scripted-manual#scripted-install'.  
+Build as .dll  

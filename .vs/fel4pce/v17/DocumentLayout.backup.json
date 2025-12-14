@@ -14,12 +14,16 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "fel4pce",
+              "Title": "fel4pce.csproj",
               "DocumentMoniker": "E:\\pce\\dev-git\\pce-mini-FEL\\fel4pce.csproj",
               "RelativeDocumentMoniker": "fel4pce.csproj",
               "ToolTip": "E:\\pce\\dev-git\\pce-mini-FEL\\fel4pce.csproj",
@@ -28,10 +32,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-01-23T20:23:28.204Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             }
           ]
         }

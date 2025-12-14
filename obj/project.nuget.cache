@@ -1,15 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "h5ujMn63H6c=",
+  "dgSpecHash": "7Nt68+ShZzU=",
   "success": true,
   "projectFilePath": "E:\\pce\\dev-git\\pce-mini-FEL\\fel4pce.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Bix\\.nuget\\packages\\libusbdotnet\\2.2.29\\libusbdotnet.2.2.29.nupkg.sha512",
-    "C:\\Users\\Bix\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.12\\microsoft.net.illink.tasks.8.0.12.nupkg.sha512",
+    "C:\\Users\\Bix\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.14\\microsoft.net.illink.tasks.8.0.14.nupkg.sha512",
     "C:\\Users\\Bix\\.nuget\\packages\\microsoft.netcore.platforms\\2.0.0\\microsoft.netcore.platforms.2.0.0.nupkg.sha512",
     "C:\\Users\\Bix\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Bix\\.nuget\\packages\\system.security.accesscontrol\\4.5.0\\system.security.accesscontrol.4.5.0.nupkg.sha512",
-    "C:\\Users\\Bix\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512"
+    "C:\\Users\\Bix\\.nuget\\packages\\system.security.principal.windows\\4.5.0\\system.security.principal.windows.4.5.0.nupkg.sha512",
+    "C:\\Users\\Bix\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-arm64\\8.0.14\\microsoft.netcore.app.runtime.linux-arm64.8.0.14.nupkg.sha512",
+    "C:\\Users\\Bix\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-arm64\\8.0.14\\microsoft.aspnetcore.app.runtime.linux-arm64.8.0.14.nupkg.sha512",
+    "C:\\Users\\Bix\\.nuget\\packages\\microsoft.netcore.app.host.linux-arm64\\8.0.14\\microsoft.netcore.app.host.linux-arm64.8.0.14.nupkg.sha512"
   ],
   "logs": []
 }

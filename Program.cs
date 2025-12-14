@@ -37,9 +37,17 @@ class FelPceMini
                 if (usbDevice.Vid == vid && usbDevice.Pid == pid)
                 {
                     Console.WriteLine("\nFound the PCE/TG16/Coregrafx Mini!");
-                    usbDevice.Open(out device);
-                    found = true;
-                    break;
+                    if (usbDevice.Open(out device))
+                    {
+                        epReader = device.OpenEndpointReader((ReadEndpointID)inEndPoint, 65536);
+                        epWriter = device.OpenEndpointWriter((WriteEndpointID)outEndPoint);
+                        found = true;
+                        break;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Failed to open device. You might need to run as root (sudo).");
+                    }
                 }
             }
             if (!found)
@@ -50,8 +58,6 @@ class FelPceMini
         }
 
         // get endpoints
-        epReader = device.OpenEndpointReader((ReadEndpointID)inEndPoint, 65536);
-        epWriter = device.OpenEndpointWriter((WriteEndpointID)outEndPoint);
 
         // send the FEL magic
         Console.WriteLine("Sending magic bytes to trigger FEL mode :");
@@ -65,10 +71,6 @@ class FelPceMini
         System.Threading.Thread.Sleep(2000);
         Console.Write("1...");
         System.Threading.Thread.Sleep(2000);
-        if (device != null)
-        {
-            device.Close();
-        }
         if (epReader != null)
         {
             epReader.Dispose();
@@ -77,6 +79,11 @@ class FelPceMini
         {
             epWriter.Dispose();
         }
+        if (device != null)
+        {
+            if (device.IsOpen) device.Close();
+        }
+        UsbDevice.Exit();
         Console.WriteLine("Bye");
     }
 }
